@@ -1,0 +1,100 @@
+*{ box-sizing: border-box;}
+
+body {
+    background-color: #28a096;
+    margin: 0 auto;
+    padding: 20px;
+    color: #96ccdd;
+    text-align: center;
+}
+
+/* Start Header */
+
+header {
+    padding: 50px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+h1 {
+    padding-bottom: 15px;
+    border-bottom: 3px solid #96ccdd;
+    text-shadow: 2px 4px 10px #101010;
+}
+
+/* Start Loading */
+
+.load-wrapp {
+      width: 300px;
+      height: 300px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+      background-color: #d8d8d8;
+}
+
+.letter-holder {padding: 16px;margin: 90px 0 0 40px;}
+
+.letter {
+  float: left;
+  font-size: 40px;
+  color: #1faebd;
+}
+
+
+/* Animation */
+
+.load-5 .letter {
+  animation-name: loading5;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.l-1 {
+  animation-delay: 0.48s;
+}
+.l-2 {
+  animation-delay: 0.6s;
+}
+.l-3 {
+  animation-delay: 0.72s;
+}
+.l-4 {
+  animation-delay: 0.84s;
+}
+.l-5 {
+  animation-delay: 0.96s;
+}
+.l-6 {
+  animation-delay: 1.08s;
+}
+.l-7 {
+  animation-delay: 1.2s;
+}
+.l-8 {
+  animation-delay: 1.32s;
+}
+.l-9 {
+  animation-delay: 1.44s;
+}
+.l-10 {
+  animation-delay: 1.56s;
+}
+
+
+@keyframes loading5 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+/*start footer */
+footer{margin-top: 200px;}
